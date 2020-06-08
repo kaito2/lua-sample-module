@@ -9,5 +9,7 @@ description = {
 }
 build = {
    type = "builtin",
-   modules = {}
+   modules = {
+      ["mymodule"] = "lib/mymodule.lua"
+   }
 }
